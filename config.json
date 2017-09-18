@@ -1,0 +1,37 @@
+{
+  "public": {
+    "html": "public/",
+    "js": "public/js/",
+    "css": "public/css/",
+    "img": "public/img/",
+    "fonts": "public/fonts/"
+  },
+  "src": {
+    "html": "src/*.html",
+    "js": [
+      "bower_components/jquery/dist/jquery.js",
+      "src/js/**/*.js"
+    ],
+    "style": "src/styles/main.scss",
+    "img": "src/img/**/*.*",
+    "fonts": [
+      "src/fonts/**/*.*"    ]
+  },
+  "watch": {
+    "html": "src/**/*.html",
+    "js": "src/js/**/*.js",
+    "style": "src/styles/**/*.scss",
+    "img": "src/img/**/*.*",
+    "fonts": "src/fonts/**/*.*"
+  },
+  "clean": "./public",
+  "server-config": {
+    "server": {
+      "baseDir": "./public"
+    },
+    "tunnel": "true",
+    "host": "localhost",
+    "port": 9000,
+    "logPrefix": "Frontend_Devil"
+  }
+}

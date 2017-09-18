@@ -1,0 +1,15 @@
+@import "../fonts/fonts";
+@import "_adjustment/varibles";
+@import "_adjustment/mixins";
+@import "/bower_components/normalize.css/normalize.css";
+@import "_adjustment/settings";
+
+
+//Styles:
+body {
+  background: red !important;
+}
+
+//media:
+@import "_adjustment/adaptive";
+

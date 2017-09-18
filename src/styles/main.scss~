@@ -1,0 +1,23 @@
+//styles vars
+$white: #f6f6f6;
+$blue: #32c3e5;
+$black: #414141;
+$red: #e85f61;
+
+@import "../fonts/fonts";
+@import "_misc/mixins";
+//СБРОС СТАНДАРТНЫХ СТИЛЕЙ
+@import "_misc/normalize";
+//НАСТРОЙКИ
+@import "_misc/settings";
+//СТИЛИ ПО СЕКЦИЯМ:
+@import "section/header";
+@import "section/footer";
+@import "section/content";
+
+
+//* {
+//  border: .2px solid red;
+//  box-sizing: border-box;
+//  padding: 5px;
+//}

@@ -1,0 +1,26 @@
+{
+  "name": "name",
+  "version": "0.0.0",
+  "description": "description",
+  "main": "server.js",
+  "scripts": {
+    "postinstall": "bower cache clean && bower install"
+  },
+  "author": "ibol34tt",
+  "license": "ISC",
+  "dependencies": {
+    "browser-sync": "^2.18.1",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^3.1.1",
+    "gulp-clean-css": "^2.0.13",
+    "gulp-imagemin": "^3.1.1",
+    "gulp-plumber": "^1.1.0",
+    "gulp-rigger": "^0.5.8",
+    "gulp-sass": "^2.3.2",
+    "gulp-sourcemaps": "^2.2.0",
+    "gulp-uglify": "^2.0.0",
+    "gulp.spritesmith": "^6.2.1",
+    "imagemin-pngquant": "^5.0.0",
+    "gulp-concat": "^2.6.1"
+  }
+}
